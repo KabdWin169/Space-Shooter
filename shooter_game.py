@@ -193,6 +193,7 @@ class GameManager():
             self.hud.draw_play()
         elif self.state == 'lose':
             self.hud.draw_lose()
+            print('YOU LOSE!')
 
 game = GameManager()     
 
